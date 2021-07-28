@@ -1,6 +1,6 @@
 #!/bin/bash
 port=${1}:8080
-src=${2}:/usr/local/tomcat/webapps #volume path
+src=${2}:/usr/local/tomcat/webapps/ROOT #volume path
 container_name=${3}
 img_name=${4}
 echo ${port}
